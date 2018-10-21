@@ -8,8 +8,8 @@ class CalculateTime():
                 seconds = (time-minutes)*60
                 seconds = math.ceil(seconds) if math.ceil(seconds)-seconds < 0.5 else math.floor(seconds)
                 if minutes < 1:
-                        return str(length) + " less than 1 minute"
+                        return " less than 1 minute"
                 elif seconds <= 30:
-                        return str(length) + " about " + str(minutes) + " min"
+                        return " about " + str(minutes) + " min"
                 else:
-                        return str(length) + " about " + str(minutes + 1) + " min "
+                        return " about " + str(minutes + 1) + " min "
