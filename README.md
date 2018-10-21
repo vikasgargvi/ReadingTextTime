@@ -12,7 +12,7 @@ Place this file in the same directory where is views.py
 
 // import
 
-	from .ReadingTime import calculateTime
+	from .ReadingTime import CalculateTime
 	
   //add before saving post in database
   
